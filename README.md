@@ -3,6 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/kingiol/KDInteractiveNavigationController/blob/master/LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/v/KDInteractiveNavigationController.svg)](https://github.com/kingiol/KDInteractiveNavigationController)
 
+![screenshots](./etc/screenshots.gif)
+
 ## Features :sparkles:
 
 - UINavigationController interactive with UINavigationBar hidden or show
@@ -59,9 +61,25 @@ github 'kingiol/AHKNavigationController'
 
 Run `carthage` to build the framework and drag the built `AHKNavigationController.framework` into your Xcode project.
 
-## Usage
+## Usage - Easy to Use
 
+### UINavigationController interactive
 
+> default UINavigationBar is show, when you want hiden UINavigationBar
+> in UIViewController `viewDidLoad` method
+
+```swift
+override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        self.interactiveNavigationBarHidden = true
+    }
+```
+
+### Hide all UINavigationController backButtonItem's title
+
+> user KDInteractiveNavigationController instead of UINavigationController.
+> then set `clearBackTitle = true`
 
 ## Credits
 

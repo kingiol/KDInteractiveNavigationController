@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "A UINavigationController subclass that support interactive UINavigationbar with hidden or show."
 
   s.homepage     = "https://github.com/kingiol/KDInteractiveNavigationController"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { "kingiol" => "kingxiaokang@gmail.com" }
