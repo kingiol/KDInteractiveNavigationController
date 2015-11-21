@@ -14,6 +14,8 @@
 		6260F7661C0043D3003DC9FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6260F7641C0043D3003DC9FE /* LaunchScreen.storyboard */; };
 		6260F7711C0043D3003DC9FE /* KDInteractiveNavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6260F7701C0043D3003DC9FE /* KDInteractiveNavigationControllerTests.swift */; };
 		6260F77C1C0043D3003DC9FE /* KDInteractiveNavigationControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6260F77B1C0043D3003DC9FE /* KDInteractiveNavigationControllerUITests.swift */; };
+		6260F78B1C0044F8003DC9FE /* KDInteractiveNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6260F78A1C0044F8003DC9FE /* KDInteractiveNavigationController.swift */; };
+		6260F78D1C004818003DC9FE /* UIViewController+InteractiveNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6260F78C1C004818003DC9FE /* UIViewController+InteractiveNavigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6260F7771C0043D3003DC9FE /* KDInteractiveNavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDInteractiveNavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6260F77B1C0043D3003DC9FE /* KDInteractiveNavigationControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDInteractiveNavigationControllerUITests.swift; sourceTree = "<group>"; };
 		6260F77D1C0043D3003DC9FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6260F78A1C0044F8003DC9FE /* KDInteractiveNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDInteractiveNavigationController.swift; sourceTree = "<group>"; };
+		6260F78C1C004818003DC9FE /* UIViewController+InteractiveNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+InteractiveNavigation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		6260F75A1C0043D3003DC9FE /* KDInteractiveNavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				6260F7891C0044D9003DC9FE /* Classes */,
 				6260F75B1C0043D3003DC9FE /* AppDelegate.swift */,
 				6260F75D1C0043D3003DC9FE /* ViewController.swift */,
 				6260F75F1C0043D3003DC9FE /* Main.storyboard */,
@@ -124,6 +129,15 @@
 			);
 			path = KDInteractiveNavigationControllerUITests;
 			sourceTree = "<group>";
+		};
+		6260F7891C0044D9003DC9FE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6260F78A1C0044F8003DC9FE /* KDInteractiveNavigationController.swift */,
+				6260F78C1C004818003DC9FE /* UIViewController+InteractiveNavigation.swift */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -256,6 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6260F78B1C0044F8003DC9FE /* KDInteractiveNavigationController.swift in Sources */,
+				6260F78D1C004818003DC9FE /* UIViewController+InteractiveNavigation.swift in Sources */,
 				6260F75E1C0043D3003DC9FE /* ViewController.swift in Sources */,
 				6260F75C1C0043D3003DC9FE /* AppDelegate.swift in Sources */,
 			);
