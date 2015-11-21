@@ -30,6 +30,7 @@ To integrage KDInteractiveNavigationController into your Xcode project using Coc
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
+inhibit_all_warnings!
 
 pod 'KDInteractiveNavigationController'
 ```

@@ -8,29 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6260F79E1C00A4A7003DC9FE /* KDInteractiveNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6260F79D1C00A4A7003DC9FE /* KDInteractiveNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6260F7A51C00A4A7003DC9FE /* KDInteractiveNavigationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6260F79A1C00A4A7003DC9FE /* KDInteractiveNavigationController.framework */; };
-		6260F7AA1C00A4A7003DC9FE /* KDInteractiveNavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6260F7A91C00A4A7003DC9FE /* KDInteractiveNavigationControllerTests.swift */; };
 		6260F7B51C00A611003DC9FE /* KDInteractiveNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6260F7B41C00A611003DC9FE /* KDInteractiveNavigationController.swift */; };
 		6260F7B71C00A634003DC9FE /* UIViewController+InteractiveNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6260F7B61C00A634003DC9FE /* UIViewController+InteractiveNavigation.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6260F7A61C00A4A7003DC9FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6260F7911C00A4A7003DC9FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6260F7991C00A4A7003DC9FE;
-			remoteInfo = KDInteractiveNavigationController;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6260F79A1C00A4A7003DC9FE /* KDInteractiveNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KDInteractiveNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6260F79D1C00A4A7003DC9FE /* KDInteractiveNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDInteractiveNavigationController.h; sourceTree = "<group>"; };
 		6260F79F1C00A4A7003DC9FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6260F7A41C00A4A7003DC9FE /* KDInteractiveNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDInteractiveNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6260F7A91C00A4A7003DC9FE /* KDInteractiveNavigationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDInteractiveNavigationControllerTests.swift; sourceTree = "<group>"; };
-		6260F7AB1C00A4A7003DC9FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6260F7B41C00A611003DC9FE /* KDInteractiveNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDInteractiveNavigationController.swift; sourceTree = "<group>"; };
 		6260F7B61C00A634003DC9FE /* UIViewController+InteractiveNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+InteractiveNavigation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,14 +28,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6260F7A11C00A4A7003DC9FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6260F7A51C00A4A7003DC9FE /* KDInteractiveNavigationController.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -58,7 +35,6 @@
 			isa = PBXGroup;
 			children = (
 				6260F79C1C00A4A7003DC9FE /* KDInteractiveNavigationController */,
-				6260F7A81C00A4A7003DC9FE /* KDInteractiveNavigationControllerTests */,
 				6260F79B1C00A4A7003DC9FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				6260F79A1C00A4A7003DC9FE /* KDInteractiveNavigationController.framework */,
-				6260F7A41C00A4A7003DC9FE /* KDInteractiveNavigationControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,15 +56,6 @@
 				6260F7B61C00A634003DC9FE /* UIViewController+InteractiveNavigation.swift */,
 			);
 			path = KDInteractiveNavigationController;
-			sourceTree = "<group>";
-		};
-		6260F7A81C00A4A7003DC9FE /* KDInteractiveNavigationControllerTests */ = {
-			isa = PBXGroup;
-			children = (
-				6260F7A91C00A4A7003DC9FE /* KDInteractiveNavigationControllerTests.swift */,
-				6260F7AB1C00A4A7003DC9FE /* Info.plist */,
-			);
-			path = KDInteractiveNavigationControllerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,24 +90,6 @@
 			productReference = 6260F79A1C00A4A7003DC9FE /* KDInteractiveNavigationController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6260F7A31C00A4A7003DC9FE /* KDInteractiveNavigationControllerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6260F7B11C00A4A7003DC9FE /* Build configuration list for PBXNativeTarget "KDInteractiveNavigationControllerTests" */;
-			buildPhases = (
-				6260F7A01C00A4A7003DC9FE /* Sources */,
-				6260F7A11C00A4A7003DC9FE /* Frameworks */,
-				6260F7A21C00A4A7003DC9FE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6260F7A71C00A4A7003DC9FE /* PBXTargetDependency */,
-			);
-			name = KDInteractiveNavigationControllerTests;
-			productName = KDInteractiveNavigationControllerTests;
-			productReference = 6260F7A41C00A4A7003DC9FE /* KDInteractiveNavigationControllerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,9 +101,6 @@
 				ORGANIZATIONNAME = Kingiol;
 				TargetAttributes = {
 					6260F7991C00A4A7003DC9FE = {
-						CreatedOnToolsVersion = 7.1.1;
-					};
-					6260F7A31C00A4A7003DC9FE = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
 				};
@@ -173,20 +118,12 @@
 			projectRoot = "";
 			targets = (
 				6260F7991C00A4A7003DC9FE /* KDInteractiveNavigationController */,
-				6260F7A31C00A4A7003DC9FE /* KDInteractiveNavigationControllerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6260F7981C00A4A7003DC9FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6260F7A21C00A4A7003DC9FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,23 +142,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6260F7A01C00A4A7003DC9FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6260F7AA1C00A4A7003DC9FE /* KDInteractiveNavigationControllerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6260F7A71C00A4A7003DC9FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6260F7991C00A4A7003DC9FE /* KDInteractiveNavigationController */;
-			targetProxy = 6260F7A61C00A4A7003DC9FE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6260F7AC1C00A4A7003DC9FE /* Debug */ = {
@@ -348,26 +269,6 @@
 			};
 			name = Release;
 		};
-		6260F7B21C00A4A7003DC9FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = KDInteractiveNavigationControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kingiol.component.KDInteractiveNavigationControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		6260F7B31C00A4A7003DC9FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = KDInteractiveNavigationControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kingiol.component.KDInteractiveNavigationControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -385,15 +286,6 @@
 			buildConfigurations = (
 				6260F7AF1C00A4A7003DC9FE /* Debug */,
 				6260F7B01C00A4A7003DC9FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6260F7B11C00A4A7003DC9FE /* Build configuration list for PBXNativeTarget "KDInteractiveNavigationControllerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6260F7B21C00A4A7003DC9FE /* Debug */,
-				6260F7B31C00A4A7003DC9FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
