@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6260F7571C0043D3003DC9FE"
-               BuildableName = "KDInteractiveNavigationController.app"
+               BlueprintIdentifier = "6260F7991C00A4A7003DC9FE"
+               BuildableName = "KDInteractiveNavigationController.framework"
                BlueprintName = "KDInteractiveNavigationController"
                ReferencedContainer = "container:KDInteractiveNavigationController.xcodeproj">
             </BuildableReference>
@@ -32,19 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6260F76B1C0043D3003DC9FE"
+               BlueprintIdentifier = "6260F7A31C00A4A7003DC9FE"
                BuildableName = "KDInteractiveNavigationControllerTests.xctest"
                BlueprintName = "KDInteractiveNavigationControllerTests"
-               ReferencedContainer = "container:KDInteractiveNavigationController.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6260F7761C0043D3003DC9FE"
-               BuildableName = "KDInteractiveNavigationControllerUITests.xctest"
-               BlueprintName = "KDInteractiveNavigationControllerUITests"
                ReferencedContainer = "container:KDInteractiveNavigationController.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -52,8 +42,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6260F7571C0043D3003DC9FE"
-            BuildableName = "KDInteractiveNavigationController.app"
+            BlueprintIdentifier = "6260F7991C00A4A7003DC9FE"
+            BuildableName = "KDInteractiveNavigationController.framework"
             BlueprintName = "KDInteractiveNavigationController"
             ReferencedContainer = "container:KDInteractiveNavigationController.xcodeproj">
          </BuildableReference>
@@ -71,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6260F7571C0043D3003DC9FE"
-            BuildableName = "KDInteractiveNavigationController.app"
+            BlueprintIdentifier = "6260F7991C00A4A7003DC9FE"
+            BuildableName = "KDInteractiveNavigationController.framework"
             BlueprintName = "KDInteractiveNavigationController"
             ReferencedContainer = "container:KDInteractiveNavigationController.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6260F7571C0043D3003DC9FE"
-            BuildableName = "KDInteractiveNavigationController.app"
+            BlueprintIdentifier = "6260F7991C00A4A7003DC9FE"
+            BuildableName = "KDInteractiveNavigationController.framework"
             BlueprintName = "KDInteractiveNavigationController"
             ReferencedContainer = "container:KDInteractiveNavigationController.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

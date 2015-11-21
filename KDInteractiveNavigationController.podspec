@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.requires_arc = true
 
-  s.source       = { :git => "https://github.com/kingiol/KDInteractiveNavigationController", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/kingiol/KDInteractiveNavigationController.git", :tag => s.version.to_s }
 
-  s.source_files  = "Classes/*.swift"
+  s.source_files  = "KDInteractiveNavigationController/*.{h,swift}"
   s.frameworks = ['UIKit']
 end
