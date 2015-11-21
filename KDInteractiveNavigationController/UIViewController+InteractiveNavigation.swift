@@ -15,7 +15,7 @@ private var interactiveNavigationBarHiddenAssociationKey: UInt8 = 0
 @IBDesignable
 extension UIViewController {
     
-    @IBInspectable var interactiveNavigationBarHidden: Bool {
+    @IBInspectable public var interactiveNavigationBarHidden: Bool {
         get {
             var associateValue = objc_getAssociatedObject(self, &interactiveNavigationBarHiddenAssociationKey)
             if associateValue == nil {

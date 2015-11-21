@@ -1,12 +1,14 @@
 //
 //  ViewController.swift
-//  KDInteractiveNavigationController
+//  DemoApp
 //
-//  Created by Kingiol on 15/11/21.
+//  Created by Kingiol on 15/11/22.
 //  Copyright © 2015年 Kingiol. All rights reserved.
 //
 
 import UIKit
+
+import KDInteractiveNavigationController
 
 class ViewController: UIViewController {
 

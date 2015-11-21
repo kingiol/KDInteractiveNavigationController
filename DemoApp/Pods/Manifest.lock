@@ -1,0 +1,14 @@
+PODS:
+  - KDInteractiveNavigationController (0.1)
+
+DEPENDENCIES:
+  - KDInteractiveNavigationController (from `../`)
+
+EXTERNAL SOURCES:
+  KDInteractiveNavigationController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KDInteractiveNavigationController: f729e7af5593e95059938ae7b26e41055bc31b2f
+
+COCOAPODS: 0.39.0
