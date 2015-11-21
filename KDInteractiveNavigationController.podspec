@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   s.license = { :type => 'MIT', :file => 'LICENSE' }
-  s.author             = { "kingiol" => "kingxiaokang@gmail.com" }
+  s.authors = { "kingiol" => "kingxiaokang@gmail.com" }
 
   s.platform     = :ios, "8.0"
   s.requires_arc = true
