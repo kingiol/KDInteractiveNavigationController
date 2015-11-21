@@ -5,8 +5,8 @@
 
 ## Features :sparkles:
 
-- Features 0
-- Features 2
+- UINavigationController interactive with UINavigationBar hidden or show
+- Hide all UINavigationController backButtonItem's title, only show back arrow
 
 ## Requirements
 
