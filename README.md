@@ -24,9 +24,9 @@
 $ gem install cocoapods
 ```
 
-> Cocoapods 0.39.0+ is required to build.
+> CocoaPods 0.39.0+ is required to build.
 
-To integrage KDInteractiveNavigationController into your Xcode project using Cocoapods, specify it in your `Podfile`:
+To integrage KDInteractiveNavigationController into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
