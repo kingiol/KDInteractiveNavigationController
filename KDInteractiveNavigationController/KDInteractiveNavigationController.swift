@@ -9,30 +9,30 @@
 import UIKit
 
 @IBDesignable
-public class KDInteractiveNavigationController: UINavigationController {
+open class KDInteractiveNavigationController: UINavigationController {
     
-    @IBInspectable public var clearBackTitle: Bool = false
+    @IBInspectable open var clearBackTitle: Bool = false
     
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
         self.interactivePopGestureRecognizer?.delegate = self
     }
     
-    override public func didReceiveMemoryWarning() {
+    override open func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    override public func pushViewController(viewController: UIViewController, animated: Bool) {
+    override open func pushViewController(_ viewController: UIViewController, animated: Bool) {
         controlClearBackTitle()
         super.pushViewController(viewController, animated: animated)
     }
     
-    override public func showViewController(vc: UIViewController, sender: AnyObject?) {
+    override open func show(_ vc: UIViewController, sender: Any?) {
         controlClearBackTitle()
-        super.showViewController(vc, sender: sender)
+        super.show(vc, sender: sender)
     }
     
 }
@@ -49,7 +49,7 @@ extension KDInteractiveNavigationController {
     
     func controlClearBackTitle() {
         if clearBackTitle {
-            topViewController?.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .Plain, target: nil, action: nil)
+            topViewController?.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         }
     }
     
