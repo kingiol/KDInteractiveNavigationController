@@ -1,14 +1,16 @@
 PODS:
-  - KDInteractiveNavigationController (0.1)
+  - KDInteractiveNavigationController (0.1.2)
 
 DEPENDENCIES:
   - KDInteractiveNavigationController (from `../`)
 
 EXTERNAL SOURCES:
   KDInteractiveNavigationController:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  KDInteractiveNavigationController: f729e7af5593e95059938ae7b26e41055bc31b2f
+  KDInteractiveNavigationController: c719bdf18062213315890c4648d37156a621b520
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: e1e5640035aa69bc82fd9d075d4b839b48800d0a
+
+COCOAPODS: 1.1.0.rc.2

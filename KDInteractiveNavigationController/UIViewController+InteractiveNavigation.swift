@@ -28,20 +28,20 @@ extension UIViewController {
         }
     }
     
-    override public static func initialize() {
+    override open static func initialize() {
         if !didKDVCInitialized {
             replaceInteractiveMethods()
             didKDVCInitialized = true
         }
     }
     
-    private static func replaceInteractiveMethods() {
+    fileprivate static func replaceInteractiveMethods() {
         method_exchangeImplementations(
-            class_getInstanceMethod(self, "viewWillAppear:"),
-            class_getInstanceMethod(self, "KD_interactiveViewWillAppear:"))
+            class_getInstanceMethod(self, #selector(UIViewController.viewWillAppear(_:))),
+            class_getInstanceMethod(self, #selector(UIViewController.KD_interactiveViewWillAppear(_:))))
     }
     
-    func KD_interactiveViewWillAppear(animated: Bool) {
+    func KD_interactiveViewWillAppear(_ animated: Bool) {
         KD_interactiveViewWillAppear(animated)
         navigationController?.setNavigationBarHidden(interactiveNavigationBarHidden, animated: animated)
     }
