@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C47a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Vk6-0f-9e1">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Vk6-0f-9e1">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--One-->
@@ -14,26 +18,27 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZs-Pj-li5">
-                                <rect key="frame" x="269" y="258.5" width="62" height="34"/>
-                                <animations/>
+                                <rect key="frame" x="156.5" y="292" width="62" height="34"/>
                                 <state key="normal" title="Go Two"/>
                                 <connections>
                                     <segue destination="dsF-6s-D7B" kind="show" id="MQi-fx-d37"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
-                        <color key="backgroundColor" red="0.74117648601531982" green="0.76470589637756348" blue="0.78039216995239258" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.74117648601531982" green="0.76470589637756348" blue="0.78039216995239258" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="cZs-Pj-li5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Mgv-Ay-dhB"/>
                             <constraint firstItem="cZs-Pj-li5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hza-kk-2pd"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="One" id="bce-gQ-TDB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="interactiveNavigationBarHidden" value="YES"/>
+                    </userDefinedRuntimeAttributes>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -48,20 +53,28 @@
                         <viewControllerLayoutGuide type="bottom" id="3Bk-kn-hQS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="9iW-eT-zjg">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Td-eo-mbg">
-                                <rect key="frame" x="263" y="258.5" width="75" height="34"/>
-                                <animations/>
+                                <rect key="frame" x="150" y="292" width="75" height="34"/>
                                 <state key="normal" title="Go Three"/>
                                 <connections>
                                     <segue destination="FGK-DO-Ray" kind="show" id="3Cn-gC-2xh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66H-d1-om1">
+                                <rect key="frame" x="141" y="362" width="93" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Show Activity">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showActivityVC" destination="dsF-6s-D7B" eventType="touchUpInside" id="h6u-tp-X77"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <animations/>
-                        <color key="backgroundColor" red="0.60784316062927246" green="0.3490196168422699" blue="0.7137255072593689" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.60784316062927246" green="0.3490196168422699" blue="0.7137255072593689" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Td-eo-mbg" firstAttribute="centerY" secondItem="9iW-eT-zjg" secondAttribute="centerY" id="RbI-dP-oEM"/>
                             <constraint firstItem="6Td-eo-mbg" firstAttribute="centerX" secondItem="9iW-eT-zjg" secondAttribute="centerX" id="Tib-ME-Ul4"/>
@@ -85,20 +98,18 @@
                         <viewControllerLayoutGuide type="bottom" id="9RU-U3-K6i"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6uI-zD-Rlw">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKf-wq-gVv">
-                                <rect key="frame" x="267.5" y="258.5" width="65" height="34"/>
-                                <animations/>
+                                <rect key="frame" x="155" y="292" width="65" height="34"/>
                                 <state key="normal" title="Go Four"/>
                                 <connections>
                                     <segue destination="pFW-ZJ-f1T" kind="show" id="1Uz-6D-nh4"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
-                        <color key="backgroundColor" red="0.20392157137393951" green="0.59607845544815063" blue="0.85882353782653809" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.20392157137393951" green="0.59607845544815063" blue="0.85882353782653809" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="sKf-wq-gVv" firstAttribute="centerX" secondItem="6uI-zD-Rlw" secondAttribute="centerX" id="14x-DX-MOJ"/>
                             <constraint firstItem="sKf-wq-gVv" firstAttribute="centerY" secondItem="6uI-zD-Rlw" secondAttribute="centerY" id="igM-ka-n8M"/>
@@ -119,14 +130,13 @@
                         <viewControllerLayoutGuide type="bottom" id="JNl-Ta-YOl"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="GDn-ID-cFt">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" red="0.9529411792755127" green="0.61176472902297974" blue="0.070588238537311554" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.9529411792755127" green="0.61176472902297974" blue="0.070588238537311554" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Four" id="1Ny-o9-tSR"/>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="boolean" keyPath="interactiveNavigationBarHidden" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="interactiveNavigationBarHidden" value="NO"/>
                     </userDefinedRuntimeAttributes>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WNl-nz-cW3" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -142,10 +152,9 @@
                         <viewControllerLayoutGuide type="bottom" id="lDR-9B-Vjn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="BdC-3g-cGg">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" red="0.90196079015731812" green="0.49411764740943909" blue="0.13333334028720856" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.90196079015731812" green="0.49411764740943909" blue="0.13333334028720856" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Four" id="Cge-sP-mfJ"/>
                 </viewController>
@@ -162,12 +171,11 @@
                         <viewControllerLayoutGuide type="bottom" id="EoJ-cm-ozf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Am7-D9-QM3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5w-N0-NMh">
-                                <rect key="frame" x="267" y="258" width="65" height="34"/>
-                                <animations/>
+                                <rect key="frame" x="155" y="292" width="65" height="34"/>
                                 <state key="normal" title="Go Four"/>
                                 <connections>
                                     <segue destination="7PZ-Um-OMy" kind="show" id="y9w-Xu-0UP">
@@ -176,8 +184,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
-                        <color key="backgroundColor" red="0.20392157137393951" green="0.28627452254295349" blue="0.36862745881080627" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.20392157137393951" green="0.28627452254295349" blue="0.36862745881080627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="I5w-N0-NMh" firstAttribute="centerX" secondItem="Am7-D9-QM3" secondAttribute="centerX" id="Hbf-pA-8OP"/>
                             <constraint firstItem="I5w-N0-NMh" firstAttribute="centerY" secondItem="Am7-D9-QM3" secondAttribute="centerY" id="wYz-7V-MNQ"/>
@@ -200,13 +207,12 @@
                         <viewControllerLayoutGuide type="top" id="TIo-DA-15R"/>
                         <viewControllerLayoutGuide type="bottom" id="Mny-DK-X5p"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="7ak-hS-g0O">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="7ak-hS-g0O">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haO-ea-X9C">
-                                <rect key="frame" x="263" y="258" width="75" height="34"/>
-                                <animations/>
+                                <rect key="frame" x="150" y="292" width="75" height="34"/>
                                 <state key="normal" title="Go Three"/>
                                 <connections>
                                     <segue destination="lsY-G4-P5e" kind="show" id="LOa-3S-Rfy">
@@ -215,8 +221,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
-                        <color key="backgroundColor" red="0.16078431904315948" green="0.50196081399917603" blue="0.72549021244049072" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.16078431904315948" green="0.50196081399917603" blue="0.72549021244049072" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="haO-ea-X9C" firstAttribute="centerY" secondItem="7ak-hS-g0O" secondAttribute="centerY" id="Obu-sv-CAI"/>
                             <constraint firstItem="haO-ea-X9C" firstAttribute="centerX" secondItem="7ak-hS-g0O" secondAttribute="centerX" id="PSV-9c-ese"/>
@@ -226,7 +231,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X6n-Hg-ZfI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2421" y="1708"/>
+            <point key="canvasLocation" x="2420" y="1707.7961019490256"/>
         </scene>
         <!--One-->
         <scene sceneID="bJe-cp-ezT">
@@ -237,12 +242,11 @@
                         <viewControllerLayoutGuide type="bottom" id="7fH-rk-rz4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8sK-wF-puY">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMC-LN-8ft">
-                                <rect key="frame" x="269" y="258" width="62" height="34"/>
-                                <animations/>
+                                <rect key="frame" x="156.5" y="292" width="62" height="34"/>
                                 <state key="normal" title="Go Two"/>
                                 <connections>
                                     <segue destination="v53-E4-Gsg" kind="show" id="Faa-kS-gKe">
@@ -251,8 +255,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
-                        <color key="backgroundColor" red="0.10196078568696976" green="0.73725491762161255" blue="0.61176472902297974" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.10196078568696976" green="0.73725491762161255" blue="0.61176472902297974" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="gMC-LN-8ft" firstAttribute="centerY" secondItem="8sK-wF-puY" secondAttribute="centerY" id="Atr-RG-tnd"/>
                             <constraint firstItem="gMC-LN-8ft" firstAttribute="centerX" secondItem="8sK-wF-puY" secondAttribute="centerX" id="Ro3-Sw-7w4"/>
@@ -276,7 +279,6 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="400-UL-GKd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -295,7 +297,6 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="rih-Ro-wdt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="clearBackTitle" value="YES"/>
@@ -314,9 +315,9 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Vk6-0f-9e1" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="xeX-Zx-NBr">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="3gP-pL-PPj" kind="relationship" relationship="viewControllers" id="15A-kR-Vep"/>

@@ -31,5 +31,24 @@ class TwoViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @IBAction func showActivityVC() {
+        
+        let activityViewController = UIActivityViewController(activityItems: ["hello"], applicationActivities: nil)
+        activityViewController.interactiveNavigationBarHidden = true
+        activityViewController.excludedActivityTypes = [
+            .postToWeibo,
+            .print,
+            .assignToContact,
+            .saveToCameraRoll,
+            .addToReadingList,
+            .postToFlickr,
+            .postToVimeo,
+            .assignToContact,
+            .postToTencentWeibo,
+            .airDrop
+        ]
+        self.present(activityViewController, animated: true, completion: nil)
+    }
 
 }

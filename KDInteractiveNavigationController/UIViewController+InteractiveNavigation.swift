@@ -43,6 +43,12 @@ extension UIViewController {
     
     func KD_interactiveViewWillAppear(_ animated: Bool) {
         KD_interactiveViewWillAppear(animated)
+        let excludeVCs = [
+            "CKSMSComposeRemoteViewController",
+            "CKSMSComposeController",
+        ]
+        let vcName = NSStringFromClass(type(of: self))
+        if excludeVCs.contains(vcName) { return }
         navigationController?.setNavigationBarHidden(interactiveNavigationBarHidden, animated: animated)
     }
     
