@@ -2,6 +2,7 @@
 ![Swift](https://img.shields.io/badge/language-Swift-orange.svg)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/kingiol/KDInteractiveNavigationController/blob/master/LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/v/KDInteractiveNavigationController.svg)](https://github.com/kingiol/KDInteractiveNavigationController)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/kingiol/KDInteractiveNavigationController)
 
 ![screenshots](./etc/screenshots.gif)
 
