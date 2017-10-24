@@ -57,10 +57,10 @@ $ brew install carthage
 To integrate KDInteractiveNavigationController into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github 'kingiol/AHKNavigationController'
+github 'kingiol/KDInteractiveNavigationController'
 ```
 
-Run `carthage` to build the framework and drag the built `AHKNavigationController.framework` into your Xcode project.
+Run `carthage` to build the framework and drag the built `KDInteractiveNavigationController.framework` into your Xcode project.
 
 ## Usage - Easy to Use
 
