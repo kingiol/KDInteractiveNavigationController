@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "KDInteractiveNavigationController"
-  s.version      = "0.3"
+  s.version      = "0.4"
   s.summary      = "A UINavigationController subclass that support interactive UINavigationbar with hidden or show."
 
   s.homepage     = "https://github.com/kingiol/KDInteractiveNavigationController"
